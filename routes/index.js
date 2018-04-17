@@ -2,9 +2,6 @@ const path = require("path");
 const router = require("express").Router();
 const apiRoutes = require("./api");
 
-router.use("/dumby", function(req, res) {
-  console.log(req);
-});
 
 // API Routes
 router.use("/api", apiRoutes);
