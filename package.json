@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
-    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "node --use_strict server.js",
     "build": "node scripts/build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node scripts/seedDB.js"
